@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Evolution Academy</title>
+  <style>
+    body{
+      text-align:center;
+      font-family:Arial;
+      background:#dff6e3;
+    }
+    h1{
+      color:green;
+    }
+    button{
+      padding:10px 20px;
+      font-size:18px;
+      background:green;
+      color:white;
+      border:none;
+      border-radius:8px;
+      cursor:pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🧬 Evolution Academy</h1>
+  <p>Learn biology while playing!</p>
+
+  <button onclick="startGame()">Start Game</button>
+
+  <script>
+    function startGame(){
+      alert("Welcome to Evolution Academy!");
+    }
+  </script>
+
+</body>
+</html>
