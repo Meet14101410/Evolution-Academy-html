@@ -1,0 +1,14 @@
+function startGame() {
+  let score = 0;
+
+  let answer = prompt("Which scientist proposed evolution?");
+
+  if(answer.toLowerCase() === "darwin"){
+    score++;
+    alert("Correct! 🎉");
+  } else {
+    alert("Wrong! Correct answer is Darwin.");
+  }
+
+  alert("Game Over! Your Score: " + score);
+}
